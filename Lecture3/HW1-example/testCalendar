@@ -1,0 +1,23 @@
+#!/bin/sh
+prog=./calendar
+echo "************************************"
+echo "Removing old calendar.dat file"
+echo "************************************"
+rm calendar.dat
+echo "************************************"
+echo "Testing adding calendar entries"
+echo "************************************"
+$prog -a "John Smith" "03-22-2013" "10"
+$prog -a "Mary Smith" "04-02-2013" "12"
+$prog -a "Tom Smith" "05-01-2013" "4"
+$prog -a "Alice Waters" "09-22-2013" "12"
+$prog -a "John Doe" "09-22-2013" "12"
+$prog -a "Paul Plassmann" "12-08-2014" "13"
+echo "************************************"
+echo "Testing printing out all calendar entries"
+echo "************************************"
+$prog 
+echo "************************************"
+echo "Testing printing out birthdays for a date"
+echo "************************************"
+$prog "12-08-2014"

@@ -1,0 +1,21 @@
+running an example from the text
+
+1. download file(s)
+2. make folder/directory: mkdir dirname
+3. go to directory: cd dirname 
+4. Move the files to the directory: mv ../file .
+
+5. Make the project file: qmake -project 
+ -Creates Example1.pro
+
+7. Generate the Makefile by typing: qmake
+8. type make. If there are errors, you can redirect them
+   by typing make 2> errorFileName
+
+9. If it doesn't work, check the scholar announcement, you may
+   have to change QtGui to QtWidgets and then edit the .pro file
+   and add: QT += widgets
+   Also, put a name in for TARGET = <any name> 
+
+
+

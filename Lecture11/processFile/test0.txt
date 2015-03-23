@@ -1,0 +1,10 @@
+Is this a question?
+This is a statement.
+This is silly!
+I99, I32, You237.
+If your program can spellcheck these correctly;
+and recognize (or recognise) different spellings
+you are off to a good start!
+'Strunk and White' says “Charles's” is correct!
+
+
