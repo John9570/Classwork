@@ -1,0 +1,11 @@
+ADD 0x134
+NOP 
+CLEAR
+OUT  "The  value  in  the  accumulator  is  %A"
+ADDV -2
+ADDV 34
+STORE 0x29
+ADDV 21
+LOAD 0x29
+ADDV -18
+HALT

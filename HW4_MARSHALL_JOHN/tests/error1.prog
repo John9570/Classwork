@@ -1,0 +1,8 @@
+CLEAR
+NOP
+ADDV 50
+NOP
+BGTZ 10
+UNKNOWN 00e
+OUT "Should never get here."
+HALT

@@ -1,0 +1,9 @@
+CLEAR
+ADDV 513
+STORE 001
+NOP
+OUT "The accumulator value is %A."
+ADDV -14
+BGTZ 3
+OUT "The final accumulator value is %A."
+HALT
